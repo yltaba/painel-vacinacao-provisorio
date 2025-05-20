@@ -38,6 +38,7 @@ imagem_cabecalho = html.Img(
 # app
 app = Dash(external_stylesheets=[dbc.themes.SANDSTONE])
 app.title = "Painel de Vacinação"
+server = app.server
 
 app.layout = dbc.Container(
     [
