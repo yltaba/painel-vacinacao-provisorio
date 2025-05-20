@@ -7,5 +7,4 @@ pandas-datareader==0.10.0
 plotly
 gunicorn
 babel
-json
 pandas
