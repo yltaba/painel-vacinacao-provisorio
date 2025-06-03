@@ -538,7 +538,7 @@ def update_map(tipo_unidade, modalidade, ano_selecionado, vacina, escola):
         zoom=zoom,
         center=center,
         height=600,
-        labels={"nome_unidade": "Nome da unidade:", "n_vacinas": "Número de vacinas"},
+        labels={"nome_unidade": "Nome da unidade", "n_vacinas": "Número de vacinas"},
     )
     mapa_osasco.update_layout(
         map=dict(
